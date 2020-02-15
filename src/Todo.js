@@ -48,7 +48,7 @@ class Todo extends Component {
                 </div>
                 <div className="footer">
                     <input type="text" value={this.state.item} onChange={this.onChangeHandler}/>
-                    <button onClick={this.addData}>Add</button>
+                    <button onClick={this.addData}>+</button>
                 </div>
             </div>
         );

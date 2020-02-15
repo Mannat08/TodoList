@@ -1,3 +1,61 @@
 .App {
   text-align: center;
 }
+.header {
+  background: #E91E;
+  font-weight: 500;
+  color: #fff;
+  padding: 15px;
+  text-transform: uppercase;
+}
+
+.body {}
+.body ul li {
+  background: #ddd;
+    list-style: none;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.body ul {
+  margin: 0;
+  padding: 15px;
+}
+.body ul li span {
+  cursor: pointer;
+    float: right;
+    font-weight: bold;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  padding: 50px;
+  background: #E91E;
+  width: 100%;
+}
+.footer input:focus{
+  outline: none
+}
+.footer input {
+  width: 85%;
+    margin: auto;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: 17px;
+    height: 35px;
+}
+.footer button:focus{
+  outline: none
+}
+.footer button {
+  cursor: pointer;
+  position: absolute;
+    top: -18px;
+    border-radius: 50%;
+    font-size: 35px;
+    border: none;
+    background: black;
+    color: white;
+    box-shadow: 2px 2px 3px;
+}
